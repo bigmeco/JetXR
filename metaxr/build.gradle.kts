@@ -5,6 +5,7 @@ plugins {
 }
 
 android {
+    namespace = "com.jetxr.metaxr"
     compileSdk = 34
     defaultConfig {
         minSdk = 26

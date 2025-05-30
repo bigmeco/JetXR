@@ -5,6 +5,7 @@ plugins {
 }
 
 android {
+    namespace = "com.jetxr.androidsample"
     compileSdk = 34
     defaultConfig {
         applicationId = "com.jetxr.androidsample"
@@ -12,6 +13,7 @@ android {
         targetSdk = 34
     }
 }
+
 
 dependencies {
     implementation(project(":common"))

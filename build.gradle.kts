@@ -1,11 +1,14 @@
-plugins {
-    kotlin("multiplatform") version "1.9.0" apply false
-    id("org.jetbrains.compose") version "1.5.0" apply false
-}
 
-allprojects {
+
+buildscript {
     repositories {
         google()
         mavenCentral()
+        gradlePluginPortal()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:8.3.0")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.0")
     }
 }
+
